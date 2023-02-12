@@ -1,7 +1,7 @@
 # University of Salerno
 ## Dept. of Information and Electrical Engineering and Applied Mathematics
-### Digital Health And Bioinformatic Engineering - A.A. 2022/2023
-### Repository for the Materials of Medical-Imaging Project of Group 2
+### Digital Health and Bioinformatic Engineering - A.Y. 2022/2023
+### Repository for the materials of Medical-Imaging Project of Group 2
 _Members: Salvatore Ceglia, Andrea Passarelli, Giovanni Paolo Tobia_
 
 The materials is organized in two folders:
