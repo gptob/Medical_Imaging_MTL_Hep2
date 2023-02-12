@@ -1,0 +1,145 @@
+[INFO] device is cuda
+[INFO] found 12120 samples in the training set...
+[INFO] training the network...
+  0%|          | 0/35 [00:00<?, ?it/s][INFO] EPOCH: 1/35
+Image Segmentation task: loss= 0.242551, accuracy = 0.924419
+Pattern Classification task: loss= 1.659363, accuracy = 0.335809
+Intensity Classification task: loss= 0.509965, accuracy = 0.755776
+  3%|▎         | 1/35 [05:13<2:57:55, 314.00s/it][INFO] EPOCH: 2/35
+Image Segmentation task: loss= 0.151447, accuracy = 0.941409
+Pattern Classification task: loss= 1.497165, accuracy = 0.390924
+Intensity Classification task: loss= 0.420019, accuracy = 0.809571
+  6%|▌         | 2/35 [10:29<2:53:08, 314.81s/it][INFO] EPOCH: 3/35
+Image Segmentation task: loss= 0.137779, accuracy = 0.945000
+Pattern Classification task: loss= 1.373432, accuracy = 0.444389
+Intensity Classification task: loss= 0.382830, accuracy = 0.824835
+  9%|▊         | 3/35 [15:37<2:46:17, 311.80s/it][INFO] EPOCH: 4/35
+Image Segmentation task: loss= 0.130192, accuracy = 0.947458
+Pattern Classification task: loss= 1.247661, accuracy = 0.500990
+Intensity Classification task: loss= 0.352011, accuracy = 0.838119
+ 11%|█▏        | 4/35 [20:51<2:41:34, 312.73s/it][INFO] EPOCH: 5/35
+Image Segmentation task: loss= 0.122603, accuracy = 0.950031
+Pattern Classification task: loss= 1.047976, accuracy = 0.591997
+Intensity Classification task: loss= 0.330587, accuracy = 0.851073
+ 14%|█▍        | 5/35 [26:02<2:35:56, 311.89s/it][INFO] EPOCH: 6/35
+Image Segmentation task: loss= 0.115263, accuracy = 0.952754
+Pattern Classification task: loss= 0.893681, accuracy = 0.660809
+Intensity Classification task: loss= 0.304629, accuracy = 0.858911
+ 17%|█▋        | 6/35 [31:15<2:30:59, 312.40s/it][INFO] EPOCH: 7/35
+Image Segmentation task: loss= 0.107868, accuracy = 0.955758
+Pattern Classification task: loss= 0.731570, accuracy = 0.725578
+Intensity Classification task: loss= 0.276084, accuracy = 0.878300
+ 20%|██        | 7/35 [36:31<2:26:24, 313.72s/it][INFO] EPOCH: 8/35
+Image Segmentation task: loss= 0.099798, accuracy = 0.958821
+Pattern Classification task: loss= 0.577413, accuracy = 0.786056
+Intensity Classification task: loss= 0.248925, accuracy = 0.890429
+ 23%|██▎       | 8/35 [41:42<2:20:42, 312.67s/it][INFO] EPOCH: 9/35
+Image Segmentation task: loss= 0.093824, accuracy = 0.961402
+Pattern Classification task: loss= 0.480776, accuracy = 0.822855
+Intensity Classification task: loss= 0.219349, accuracy = 0.904125
+ 26%|██▌       | 9/35 [46:54<2:15:28, 312.64s/it][INFO] EPOCH: 10/35
+Image Segmentation task: loss= 0.088885, accuracy = 0.963306
+Pattern Classification task: loss= 0.414170, accuracy = 0.845297
+Intensity Classification task: loss= 0.183559, accuracy = 0.920132
+ 29%|██▊       | 10/35 [52:06<2:10:03, 312.16s/it][INFO] EPOCH: 11/35
+Image Segmentation task: loss= 0.084230, accuracy = 0.965166
+Pattern Classification task: loss= 0.357087, accuracy = 0.863284
+Intensity Classification task: loss= 0.145291, accuracy = 0.940924
+ 31%|███▏      | 11/35 [57:21<2:05:13, 313.06s/it][INFO] EPOCH: 12/35
+Image Segmentation task: loss= 0.080465, accuracy = 0.966582
+Pattern Classification task: loss= 0.308340, accuracy = 0.887376
+Intensity Classification task: loss= 0.120620, accuracy = 0.951485
+ 34%|███▍      | 12/35 [1:02:37<2:00:20, 313.92s/it][INFO] EPOCH: 13/35
+Image Segmentation task: loss= 0.075997, accuracy = 0.968367
+Pattern Classification task: loss= 0.250261, accuracy = 0.905528
+Intensity Classification task: loss= 0.079698, accuracy = 0.967492
+ 37%|███▋      | 13/35 [1:07:51<1:55:06, 313.94s/it][INFO] EPOCH: 14/35
+Image Segmentation task: loss= 0.073202, accuracy = 0.969580
+Pattern Classification task: loss= 0.222892, accuracy = 0.917574
+Intensity Classification task: loss= 0.059890, accuracy = 0.977063
+ 40%|████      | 14/35 [1:13:03<1:49:43, 313.50s/it][INFO] EPOCH: 15/35
+Image Segmentation task: loss= 0.070047, accuracy = 0.970778
+Pattern Classification task: loss= 0.238735, accuracy = 0.910314
+Intensity Classification task: loss= 0.061080, accuracy = 0.977393
+ 43%|████▎     | 15/35 [1:18:14<1:44:16, 312.82s/it][INFO] EPOCH: 16/35
+Image Segmentation task: loss= 0.067384, accuracy = 0.971761
+Pattern Classification task: loss= 0.263630, accuracy = 0.901898
+Intensity Classification task: loss= 0.068957, accuracy = 0.972030
+ 46%|████▌     | 16/35 [1:23:25<1:38:53, 312.27s/it][INFO] EPOCH: 17/35
+Image Segmentation task: loss= 0.064191, accuracy = 0.972975
+Pattern Classification task: loss= 0.228079, accuracy = 0.914686
+Intensity Classification task: loss= 0.069851, accuracy = 0.972772
+ 49%|████▊     | 17/35 [1:28:39<1:33:51, 312.85s/it][INFO] EPOCH: 18/35
+Image Segmentation task: loss= 0.062478, accuracy = 0.973644
+Pattern Classification task: loss= 0.259318, accuracy = 0.905116
+Intensity Classification task: loss= 0.086311, accuracy = 0.965347
+ 51%|█████▏    | 18/35 [1:33:35<1:27:07, 307.52s/it][INFO] EPOCH: 19/35
+Image Segmentation task: loss= 0.059595, accuracy = 0.974693
+Pattern Classification task: loss= 0.197819, accuracy = 0.929043
+Intensity Classification task: loss= 0.075549, accuracy = 0.971205
+ 54%|█████▍    | 19/35 [1:38:22<1:20:23, 301.46s/it][INFO] EPOCH: 20/35
+Image Segmentation task: loss= 0.058519, accuracy = 0.975169
+Pattern Classification task: loss= 0.220045, accuracy = 0.920957
+Intensity Classification task: loss= 0.085623, accuracy = 0.965512
+ 57%|█████▋    | 20/35 [1:43:09<1:14:17, 297.18s/it][INFO] EPOCH: 21/35
+Image Segmentation task: loss= 0.056497, accuracy = 0.975967
+Pattern Classification task: loss= 0.178051, accuracy = 0.935891
+Intensity Classification task: loss= 0.079008, accuracy = 0.969884
+ 60%|██████    | 21/35 [1:47:56<1:08:38, 294.17s/it][INFO] EPOCH: 22/35
+Image Segmentation task: loss= 0.055075, accuracy = 0.976691
+Pattern Classification task: loss= 0.162833, accuracy = 0.940594
+Intensity Classification task: loss= 0.062106, accuracy = 0.973927
+ 63%|██████▎   | 22/35 [1:52:44<1:03:21, 292.39s/it][INFO] EPOCH: 23/35
+Image Segmentation task: loss= 0.052017, accuracy = 0.977912
+Pattern Classification task: loss= 0.115263, accuracy = 0.959076
+Intensity Classification task: loss= 0.060343, accuracy = 0.976568
+ 66%|██████▌   | 23/35 [1:57:50<59:16, 296.40s/it]  [INFO] EPOCH: 24/35
+Image Segmentation task: loss= 0.051128, accuracy = 0.978277
+Pattern Classification task: loss= 0.119534, accuracy = 0.955528
+Intensity Classification task: loss= 0.060378, accuracy = 0.976815
+ 69%|██████▊   | 24/35 [2:03:31<56:45, 309.57s/it][INFO] EPOCH: 25/35
+Image Segmentation task: loss= 0.049173, accuracy = 0.979072
+Pattern Classification task: loss= 0.099402, accuracy = 0.964109
+Intensity Classification task: loss= 0.053193, accuracy = 0.980116
+ 71%|███████▏  | 25/35 [2:09:42<54:41, 328.15s/it][INFO] EPOCH: 26/35
+Image Segmentation task: loss= 0.047192, accuracy = 0.979855
+Pattern Classification task: loss= 0.074341, accuracy = 0.973432
+Intensity Classification task: loss= 0.039528, accuracy = 0.984158
+ 74%|███████▍  | 26/35 [2:15:46<50:49, 338.88s/it][INFO] EPOCH: 27/35
+Image Segmentation task: loss= 0.047458, accuracy = 0.979818
+Pattern Classification task: loss= 0.104865, accuracy = 0.965347
+Intensity Classification task: loss= 0.061315, accuracy = 0.976485
+ 77%|███████▋  | 27/35 [2:21:47<46:04, 345.62s/it][INFO] EPOCH: 28/35
+Image Segmentation task: loss= 0.044803, accuracy = 0.980852
+Pattern Classification task: loss= 0.058142, accuracy = 0.978878
+Intensity Classification task: loss= 0.036593, accuracy = 0.985644
+ 80%|████████  | 28/35 [2:26:43<38:35, 330.77s/it][INFO] EPOCH: 29/35
+Image Segmentation task: loss= 0.043964, accuracy = 0.981210
+Pattern Classification task: loss= 0.058078, accuracy = 0.980363
+Intensity Classification task: loss= 0.035566, accuracy = 0.986634
+ 83%|████████▎ | 29/35 [2:31:32<31:48, 318.08s/it][INFO] EPOCH: 30/35
+Image Segmentation task: loss= 0.042609, accuracy = 0.981769
+Pattern Classification task: loss= 0.046616, accuracy = 0.983581
+Intensity Classification task: loss= 0.029098, accuracy = 0.989439
+ 86%|████████▌ | 30/35 [2:36:18<25:42, 308.60s/it][INFO] EPOCH: 31/35
+Image Segmentation task: loss= 0.041880, accuracy = 0.982062
+Pattern Classification task: loss= 0.054333, accuracy = 0.981188
+Intensity Classification task: loss= 0.033795, accuracy = 0.987211
+ 89%|████████▊ | 31/35 [2:41:15<20:20, 305.09s/it][INFO] EPOCH: 32/35
+Image Segmentation task: loss= 0.040521, accuracy = 0.982630
+Pattern Classification task: loss= 0.042449, accuracy = 0.985809
+Intensity Classification task: loss= 0.028562, accuracy = 0.990017
+ 91%|█████████▏| 32/35 [2:46:04<15:00, 300.29s/it][INFO] EPOCH: 33/35
+Image Segmentation task: loss= 0.039520, accuracy = 0.983052
+Pattern Classification task: loss= 0.034474, accuracy = 0.987459
+Intensity Classification task: loss= 0.022711, accuracy = 0.991749
+ 94%|█████████▍| 33/35 [2:50:58<09:56, 298.32s/it][INFO] EPOCH: 34/35
+Image Segmentation task: loss= 0.038586, accuracy = 0.983442
+Pattern Classification task: loss= 0.033500, accuracy = 0.987706
+Intensity Classification task: loss= 0.024272, accuracy = 0.991254
+ 97%|█████████▋| 34/35 [2:55:50<04:56, 296.30s/it][INFO] EPOCH: 35/35
+Image Segmentation task: loss= 0.038150, accuracy = 0.983630
+Pattern Classification task: loss= 0.033307, accuracy = 0.988449
+Intensity Classification task: loss= 0.019321, accuracy = 0.993317
+100%|██████████| 35/35 [3:00:40<00:00, 294.64s/it]100%|██████████| 35/35 [3:00:40<00:00, 309.74s/it][INFO] total time taken to train the model: 10840.92s
+

@@ -1,95 +1,0 @@
-[INFO] device is cuda
-[INFO] found 12120 examples in the training set...
-[INFO] training the network...
-  0%|          | 0/30 [00:00<?, ?it/s][INFO] EPOCH: 1/30
-Dice loss: 0.214126 - Cross Entropy: 1.801190 - Binary Cross Entropy: 0.466840
-Train loss: 2.482155
-  3%|▎         | 1/30 [14:03<6:47:28, 843.06s/it][INFO] EPOCH: 2/30
-Dice loss: 0.114672 - Cross Entropy: 1.760190 - Binary Cross Entropy: 0.397383
-Train loss: 2.272245
-  7%|▋         | 2/30 [28:02<6:32:29, 841.05s/it][INFO] EPOCH: 3/30
-Dice loss: 0.097376 - Cross Entropy: 1.732765 - Binary Cross Entropy: 0.369636
-Train loss: 2.199777
- 10%|█         | 3/30 [42:01<6:18:06, 840.23s/it][INFO] EPOCH: 4/30
-Dice loss: 0.090695 - Cross Entropy: 1.693847 - Binary Cross Entropy: 0.348798
-Train loss: 2.133340
- 13%|█▎        | 4/30 [56:01<6:04:00, 840.02s/it][INFO] EPOCH: 5/30
-Dice loss: 0.086229 - Cross Entropy: 1.659433 - Binary Cross Entropy: 0.325939
-Train loss: 2.071600
- 17%|█▋        | 5/30 [1:10:00<5:49:47, 839.50s/it][INFO] EPOCH: 6/30
-Dice loss: 0.082394 - Cross Entropy: 1.623823 - Binary Cross Entropy: 0.310527
-Train loss: 2.016744
- 20%|██        | 6/30 [1:23:59<5:35:45, 839.39s/it][INFO] EPOCH: 7/30
-Dice loss: 0.078289 - Cross Entropy: 1.570605 - Binary Cross Entropy: 0.293487
-Train loss: 1.942382
- 23%|██▎       | 7/30 [1:37:58<5:21:42, 839.23s/it][INFO] EPOCH: 8/30
-Dice loss: 0.074902 - Cross Entropy: 1.524990 - Binary Cross Entropy: 0.273855
-Train loss: 1.873747
- 27%|██▋       | 8/30 [1:51:57<5:07:39, 839.07s/it][INFO] EPOCH: 9/30
-Dice loss: 0.071042 - Cross Entropy: 1.502585 - Binary Cross Entropy: 0.254868
-Train loss: 1.828495
- 30%|███       | 9/30 [2:05:55<4:53:39, 839.02s/it][INFO] EPOCH: 10/30
-Dice loss: 0.067856 - Cross Entropy: 1.473913 - Binary Cross Entropy: 0.240411
-Train loss: 1.782180
- 33%|███▎      | 10/30 [2:19:55<4:39:43, 839.16s/it][INFO] EPOCH: 11/30
-Dice loss: 0.064553 - Cross Entropy: 1.464666 - Binary Cross Entropy: 0.225563
-Train loss: 1.754781
- 37%|███▋      | 11/30 [2:33:54<4:25:44, 839.17s/it][INFO] EPOCH: 12/30
-Dice loss: 0.061136 - Cross Entropy: 1.441944 - Binary Cross Entropy: 0.204423
-Train loss: 1.707502
- 40%|████      | 12/30 [2:47:53<4:11:45, 839.18s/it][INFO] EPOCH: 13/30
-Dice loss: 0.058227 - Cross Entropy: 1.416396 - Binary Cross Entropy: 0.186841
-Train loss: 1.661464
- 43%|████▎     | 13/30 [3:01:52<3:57:44, 839.07s/it][INFO] EPOCH: 14/30
-Dice loss: 0.055009 - Cross Entropy: 1.381844 - Binary Cross Entropy: 0.163182
-Train loss: 1.600035
- 47%|████▋     | 14/30 [3:15:51<3:43:45, 839.07s/it][INFO] EPOCH: 15/30
-Dice loss: 0.051832 - Cross Entropy: 1.362979 - Binary Cross Entropy: 0.171885
-Train loss: 1.586696
- 50%|█████     | 15/30 [3:29:50<3:29:43, 838.87s/it][INFO] EPOCH: 16/30
-Dice loss: 0.049823 - Cross Entropy: 1.371795 - Binary Cross Entropy: 0.191942
-Train loss: 1.613559
- 53%|█████▎    | 16/30 [3:43:48<3:15:43, 838.80s/it][INFO] EPOCH: 17/30
-Dice loss: 0.047383 - Cross Entropy: 1.367196 - Binary Cross Entropy: 0.200065
-Train loss: 1.614644
- 57%|█████▋    | 17/30 [3:57:47<3:01:43, 838.75s/it][INFO] EPOCH: 18/30
-Dice loss: 0.045458 - Cross Entropy: 1.372304 - Binary Cross Entropy: 0.204872
-Train loss: 1.622633
- 60%|██████    | 18/30 [4:11:46<2:47:47, 838.95s/it][INFO] EPOCH: 19/30
-Dice loss: 0.044065 - Cross Entropy: 1.368978 - Binary Cross Entropy: 0.202155
-Train loss: 1.615198
- 63%|██████▎   | 19/30 [4:25:46<2:33:52, 839.28s/it][INFO] EPOCH: 20/30
-Dice loss: 0.042657 - Cross Entropy: 1.363274 - Binary Cross Entropy: 0.198509
-Train loss: 1.604440
- 67%|██████▋   | 20/30 [4:39:46<2:19:52, 839.28s/it][INFO] EPOCH: 21/30
-Dice loss: 0.041491 - Cross Entropy: 1.347570 - Binary Cross Entropy: 0.180938
-Train loss: 1.569999
- 70%|███████   | 21/30 [4:53:45<2:05:54, 839.39s/it][INFO] EPOCH: 22/30
-Dice loss: 0.040456 - Cross Entropy: 1.343652 - Binary Cross Entropy: 0.180684
-Train loss: 1.564792
- 73%|███████▎  | 22/30 [5:07:45<1:51:56, 839.52s/it][INFO] EPOCH: 23/30
-Dice loss: 0.039371 - Cross Entropy: 1.334227 - Binary Cross Entropy: 0.170335
-Train loss: 1.543932
- 77%|███████▋  | 23/30 [5:21:45<1:37:57, 839.57s/it][INFO] EPOCH: 24/30
-Dice loss: 0.038333 - Cross Entropy: 1.325308 - Binary Cross Entropy: 0.158607
-Train loss: 1.522247
- 80%|████████  | 24/30 [5:35:44<1:23:56, 839.45s/it][INFO] EPOCH: 25/30
-Dice loss: 0.037548 - Cross Entropy: 1.322064 - Binary Cross Entropy: 0.145954
-Train loss: 1.505566
- 83%|████████▎ | 25/30 [5:49:44<1:09:57, 839.50s/it][INFO] EPOCH: 26/30
-Dice loss: 0.036846 - Cross Entropy: 1.315727 - Binary Cross Entropy: 0.143039
-Train loss: 1.495612
- 87%|████████▋ | 26/30 [6:03:43<55:57, 839.49s/it]  [INFO] EPOCH: 27/30
-Dice loss: 0.036067 - Cross Entropy: 1.304117 - Binary Cross Entropy: 0.129416
-Train loss: 1.469600
- 90%|█████████ | 27/30 [6:17:43<41:58, 839.61s/it][INFO] EPOCH: 28/30
-Dice loss: 0.035360 - Cross Entropy: 1.298909 - Binary Cross Entropy: 0.121271
-Train loss: 1.455539
- 93%|█████████▎| 28/30 [6:31:42<27:59, 839.52s/it][INFO] EPOCH: 29/30
-Dice loss: 0.034845 - Cross Entropy: 1.293720 - Binary Cross Entropy: 0.110253
-Train loss: 1.438817
- 97%|█████████▋| 29/30 [6:45:42<13:59, 839.59s/it][INFO] EPOCH: 30/30
-Dice loss: 0.034047 - Cross Entropy: 1.286361 - Binary Cross Entropy: 0.101857
-Train loss: 1.422265
-100%|██████████| 30/30 [6:59:42<00:00, 839.62s/it]100%|██████████| 30/30 [6:59:42<00:00, 839.41s/it][INFO] total time taken to train the model: 25182.21s
-

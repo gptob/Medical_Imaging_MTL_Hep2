@@ -1,0 +1,7 @@
+Train1_Dice_foldB_Test Report
+3000 samples in the test set
+dice score min value:0.6256374716758728
+dice score mean value:0.9667568720777829
+dice score max value:0.99798583984375
+ label classification accuracy %: 0.8433333333333334
+ intensity classification accuracy %: 0.842

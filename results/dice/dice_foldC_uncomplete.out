@@ -1,64 +1,0 @@
-[INFO] device is cuda
-[INFO] found 12060 examples in the training set...
-[INFO] training the network...
-  0%|          | 0/30 [00:00<?, ?it/s][INFO] EPOCH: 1/30
-Dice loss: 0.266760 - Cross Entropy: 1.809313 - Binary Cross Entropy: 0.474239
-Train loss: 2.550312
-  3%|▎         | 1/30 [06:53<3:19:59, 413.79s/it][INFO] EPOCH: 2/30
-Dice loss: 0.137619 - Cross Entropy: 1.747928 - Binary Cross Entropy: 0.379362
-Train loss: 2.264910
-  7%|▋         | 2/30 [17:29<4:14:03, 544.41s/it][INFO] EPOCH: 3/30
-Dice loss: 0.107145 - Cross Entropy: 1.694490 - Binary Cross Entropy: 0.330571
-Train loss: 2.132206
- 10%|█         | 3/30 [31:02<5:00:14, 667.19s/it][INFO] EPOCH: 4/30
-Dice loss: 0.096013 - Cross Entropy: 1.650468 - Binary Cross Entropy: 0.305798
-Train loss: 2.052279
- 13%|█▎        | 4/30 [44:34<5:13:51, 724.31s/it][INFO] EPOCH: 5/30
-Dice loss: 0.090047 - Cross Entropy: 1.604993 - Binary Cross Entropy: 0.280920
-Train loss: 1.975960
- 17%|█▋        | 5/30 [58:06<5:14:59, 755.97s/it][INFO] EPOCH: 6/30
-Dice loss: 0.084791 - Cross Entropy: 1.570977 - Binary Cross Entropy: 0.253894
-Train loss: 1.909662
- 20%|██        | 6/30 [1:11:38<5:09:58, 774.95s/it][INFO] EPOCH: 7/30
-Dice loss: 0.080524 - Cross Entropy: 1.547554 - Binary Cross Entropy: 0.237253
-Train loss: 1.865331
- 23%|██▎       | 7/30 [1:25:11<5:01:47, 787.30s/it][INFO] EPOCH: 8/30
-Dice loss: 0.076443 - Cross Entropy: 1.515423 - Binary Cross Entropy: 0.219531
-Train loss: 1.811397
- 27%|██▋       | 8/30 [1:38:43<4:51:31, 795.07s/it][INFO] EPOCH: 9/30
-Dice loss: 0.072648 - Cross Entropy: 1.482355 - Binary Cross Entropy: 0.198853
-Train loss: 1.753856
- 30%|███       | 9/30 [1:52:15<4:40:09, 800.44s/it][INFO] EPOCH: 10/30
-Dice loss: 0.069459 - Cross Entropy: 1.462604 - Binary Cross Entropy: 0.185058
-Train loss: 1.717121
- 33%|███▎      | 10/30 [2:10:35<4:57:39, 892.97s/it][INFO] EPOCH: 11/30
-Dice loss: 0.066392 - Cross Entropy: 1.446963 - Binary Cross Entropy: 0.159137
-Train loss: 1.672493
- 37%|███▋      | 11/30 [2:28:21<4:59:30, 945.82s/it][INFO] EPOCH: 12/30
-Dice loss: 0.063494 - Cross Entropy: 1.429635 - Binary Cross Entropy: 0.130026
-Train loss: 1.623155
- 40%|████      | 12/30 [2:49:38<5:13:57, 1046.55s/it][INFO] EPOCH: 13/30
-Dice loss: 0.060642 - Cross Entropy: 1.402847 - Binary Cross Entropy: 0.110578
-Train loss: 1.574067
- 43%|████▎     | 13/30 [3:09:03<5:06:41, 1082.42s/it][INFO] EPOCH: 14/30
-Dice loss: 0.057352 - Cross Entropy: 1.356030 - Binary Cross Entropy: 0.102663
-Train loss: 1.516044
- 47%|████▋     | 14/30 [3:26:38<4:46:29, 1074.34s/it][INFO] EPOCH: 15/30
-Dice loss: 0.054304 - Cross Entropy: 1.359011 - Binary Cross Entropy: 0.117555
-Train loss: 1.530870
- 50%|█████     | 15/30 [3:46:51<4:39:01, 1116.10s/it][INFO] EPOCH: 16/30
-Dice loss: 0.051864 - Cross Entropy: 1.371773 - Binary Cross Entropy: 0.132823
-Train loss: 1.556460
- 53%|█████▎    | 16/30 [4:10:25<4:41:19, 1205.71s/it] 53%|█████▎    | 16/30 [4:34:26<4:00:07, 1029.14s/it]
-Traceback (most recent call last):
-  File "train.py", line 110, in <module>
-    total_loss.backward(retain_graph=True) # total_ loss backward?)
-  File "/opt/conda/lib/python3.8/site-packages/torch/_tensor.py", line 402, in backward
-    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
-  File "/opt/conda/lib/python3.8/site-packages/torch/autograd/__init__.py", line 191, in backward
-    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
-  File "/opt/conda/lib/python3.8/site-packages/torch/autograd/function.py", line 253, in apply
-    return user_fn(self, *args)
-  File "/home/g2/.local/lib/python3.8/site-packages/efficientnet_pytorch/utils.py", line 75, in backward
-    return grad_output * (sigmoid_i * (1 + i * (1 - sigmoid_i)))
-RuntimeError: CUDA out of memory. Tried to allocate 162.00 MiB (GPU 0; 44.43 GiB total capacity; 6.32 GiB already allocated; 161.19 MiB free; 11.44 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

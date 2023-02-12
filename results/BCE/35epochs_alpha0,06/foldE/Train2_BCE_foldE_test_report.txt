@@ -1,0 +1,7 @@
+Train2_BCE_foldE_Test Report
+3000 samples in the test set
+dice score min value:0.5046522617340088
+dice score mean value:0.9741127109527588
+dice score max value:0.99908447265625
+ label classification accuracy %: 0.8373333333333334
+ intensity classification accuracy %: 0.9226666666666666

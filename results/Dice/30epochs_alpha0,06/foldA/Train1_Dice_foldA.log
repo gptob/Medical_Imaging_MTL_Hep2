@@ -1,0 +1,129 @@
+[INFO] device is cuda
+[INFO] found 12060 examples in the training set...
+[INFO] training the network...
+  0%|          | 0/30 [00:00<?, ?it/s][INFO] EPOCH: 1/30
+Image Segmentation task: loss= 0.209063, accuracy = 0.914642
+Pattern Classification task: loss= 1.729751, accuracy = 0.317164
+Intensity Classification task: loss= 0.514550, accuracy = 0.751161
+  3%|▎         | 1/30 [07:32<3:38:32, 452.17s/it][INFO] EPOCH: 2/30
+Image Segmentation task: loss= 0.118295, accuracy = 0.937865
+Pattern Classification task: loss= 1.540046, accuracy = 0.392869
+Intensity Classification task: loss= 0.416139, accuracy = 0.810531
+  7%|▋         | 2/30 [15:00<3:30:04, 450.17s/it][INFO] EPOCH: 3/30
+Image Segmentation task: loss= 0.102394, accuracy = 0.942342
+Pattern Classification task: loss= 1.417533, accuracy = 0.446600
+Intensity Classification task: loss= 0.385737, accuracy = 0.824046
+ 10%|█         | 3/30 [22:31<3:22:38, 450.31s/it][INFO] EPOCH: 4/30
+Image Segmentation task: loss= 0.094706, accuracy = 0.945609
+Pattern Classification task: loss= 1.226059, accuracy = 0.536153
+Intensity Classification task: loss= 0.359192, accuracy = 0.843118
+ 13%|█▎        | 4/30 [30:01<3:15:03, 450.14s/it][INFO] EPOCH: 5/30
+Image Segmentation task: loss= 0.088177, accuracy = 0.949065
+Pattern Classification task: loss= 1.017490, accuracy = 0.619320
+Intensity Classification task: loss= 0.324188, accuracy = 0.858458
+ 17%|█▋        | 5/30 [37:31<3:07:30, 450.03s/it][INFO] EPOCH: 6/30
+Image Segmentation task: loss= 0.082169, accuracy = 0.952523
+Pattern Classification task: loss= 0.840724, accuracy = 0.689469
+Intensity Classification task: loss= 0.304502, accuracy = 0.871227
+ 20%|██        | 6/30 [45:03<3:00:19, 450.82s/it][INFO] EPOCH: 7/30
+Image Segmentation task: loss= 0.076821, accuracy = 0.955689
+Pattern Classification task: loss= 0.635264, accuracy = 0.769237
+Intensity Classification task: loss= 0.275508, accuracy = 0.883416
+ 23%|██▎       | 7/30 [52:39<2:53:24, 452.39s/it][INFO] EPOCH: 8/30
+Image Segmentation task: loss= 0.071699, accuracy = 0.958742
+Pattern Classification task: loss= 0.512696, accuracy = 0.812769
+Intensity Classification task: loss= 0.244888, accuracy = 0.894444
+ 27%|██▋       | 8/30 [1:00:15<2:46:23, 453.81s/it][INFO] EPOCH: 9/30
+Image Segmentation task: loss= 0.067269, accuracy = 0.961310
+Pattern Classification task: loss= 0.433991, accuracy = 0.843201
+Intensity Classification task: loss= 0.214508, accuracy = 0.909287
+ 30%|███       | 9/30 [1:07:53<2:39:11, 454.83s/it][INFO] EPOCH: 10/30
+Image Segmentation task: loss= 0.063506, accuracy = 0.963545
+Pattern Classification task: loss= 0.370354, accuracy = 0.864428
+Intensity Classification task: loss= 0.182917, accuracy = 0.922471
+ 33%|███▎      | 10/30 [1:15:29<2:31:45, 455.26s/it][INFO] EPOCH: 11/30
+Image Segmentation task: loss= 0.060115, accuracy = 0.965501
+Pattern Classification task: loss= 0.323142, accuracy = 0.880514
+Intensity Classification task: loss= 0.151735, accuracy = 0.936982
+ 37%|███▋      | 11/30 [1:23:04<2:24:12, 455.40s/it][INFO] EPOCH: 12/30
+Image Segmentation task: loss= 0.057319, accuracy = 0.967168
+Pattern Classification task: loss= 0.288909, accuracy = 0.897844
+Intensity Classification task: loss= 0.118576, accuracy = 0.953234
+ 40%|████      | 12/30 [1:30:41<2:16:44, 455.81s/it][INFO] EPOCH: 13/30
+Image Segmentation task: loss= 0.054156, accuracy = 0.968978
+Pattern Classification task: loss= 0.237155, accuracy = 0.913930
+Intensity Classification task: loss= 0.086622, accuracy = 0.966086
+ 43%|████▎     | 13/30 [1:38:18<2:09:12, 456.03s/it][INFO] EPOCH: 14/30
+Image Segmentation task: loss= 0.051441, accuracy = 0.970586
+Pattern Classification task: loss= 0.202128, accuracy = 0.924876
+Intensity Classification task: loss= 0.053979, accuracy = 0.979685
+ 47%|████▋     | 14/30 [1:45:54<2:01:38, 456.13s/it][INFO] EPOCH: 15/30
+Image Segmentation task: loss= 0.049243, accuracy = 0.971860
+Pattern Classification task: loss= 0.212874, accuracy = 0.924544
+Intensity Classification task: loss= 0.062382, accuracy = 0.976202
+ 50%|█████     | 15/30 [1:58:33<2:16:51, 547.45s/it][INFO] EPOCH: 16/30
+Image Segmentation task: loss= 0.046748, accuracy = 0.973290
+Pattern Classification task: loss= 0.219191, accuracy = 0.920978
+Intensity Classification task: loss= 0.075894, accuracy = 0.972554
+ 53%|█████▎    | 16/30 [2:12:58<2:30:02, 643.03s/it][INFO] EPOCH: 17/30
+Image Segmentation task: loss= 0.045158, accuracy = 0.974231
+Pattern Classification task: loss= 0.210476, accuracy = 0.920978
+Intensity Classification task: loss= 0.088741, accuracy = 0.965340
+ 57%|█████▋    | 17/30 [2:27:14<2:33:09, 706.89s/it][INFO] EPOCH: 18/30
+Image Segmentation task: loss= 0.043527, accuracy = 0.975184
+Pattern Classification task: loss= 0.213570, accuracy = 0.921559
+Intensity Classification task: loss= 0.094701, accuracy = 0.963350
+ 60%|██████    | 18/30 [2:41:43<2:31:07, 755.62s/it][INFO] EPOCH: 19/30
+Image Segmentation task: loss= 0.042077, accuracy = 0.976023
+Pattern Classification task: loss= 0.194618, accuracy = 0.930182
+Intensity Classification task: loss= 0.082256, accuracy = 0.966667
+ 63%|██████▎   | 19/30 [2:56:05<2:24:24, 787.72s/it][INFO] EPOCH: 20/30
+Image Segmentation task: loss= 0.040663, accuracy = 0.976848
+Pattern Classification task: loss= 0.167844, accuracy = 0.939055
+Intensity Classification task: loss= 0.079413, accuracy = 0.970149
+newtrain.py:231: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure()
+ 67%|██████▋   | 20/30 [3:10:41<2:15:43, 814.32s/it][INFO] EPOCH: 21/30
+Image Segmentation task: loss= 0.039458, accuracy = 0.977544
+Pattern Classification task: loss= 0.146442, accuracy = 0.947264
+Intensity Classification task: loss= 0.071809, accuracy = 0.972139
+newtrain.py:219: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure()
+ 70%|███████   | 21/30 [3:25:12<2:04:40, 831.14s/it][INFO] EPOCH: 22/30
+Image Segmentation task: loss= 0.038504, accuracy = 0.978114
+Pattern Classification task: loss= 0.128711, accuracy = 0.954146
+Intensity Classification task: loss= 0.068917, accuracy = 0.973798
+ 73%|███████▎  | 22/30 [3:39:41<1:52:20, 842.56s/it][INFO] EPOCH: 23/30
+Image Segmentation task: loss= 0.037373, accuracy = 0.978776
+Pattern Classification task: loss= 0.118827, accuracy = 0.955887
+Intensity Classification task: loss= 0.057672, accuracy = 0.977114
+ 77%|███████▋  | 23/30 [3:54:11<1:39:15, 850.73s/it][INFO] EPOCH: 24/30
+Image Segmentation task: loss= 0.036512, accuracy = 0.979270
+Pattern Classification task: loss= 0.099025, accuracy = 0.963018
+Intensity Classification task: loss= 0.046470, accuracy = 0.983250
+ 80%|████████  | 24/30 [4:08:48<1:25:52, 858.78s/it][INFO] EPOCH: 25/30
+Image Segmentation task: loss= 0.035546, accuracy = 0.979840
+Pattern Classification task: loss= 0.089319, accuracy = 0.967993
+Intensity Classification task: loss= 0.050985, accuracy = 0.980182
+ 83%|████████▎ | 25/30 [4:23:15<1:11:45, 861.13s/it][INFO] EPOCH: 26/30
+Image Segmentation task: loss= 0.034908, accuracy = 0.980219
+Pattern Classification task: loss= 0.092262, accuracy = 0.966086
+Intensity Classification task: loss= 0.046689, accuracy = 0.983416
+ 87%|████████▋ | 26/30 [4:37:48<57:38, 864.61s/it]  [INFO] EPOCH: 27/30
+Image Segmentation task: loss= 0.033798, accuracy = 0.980860
+Pattern Classification task: loss= 0.079349, accuracy = 0.971725
+Intensity Classification task: loss= 0.047344, accuracy = 0.981675
+ 90%|█████████ | 27/30 [4:52:14<43:15, 865.05s/it][INFO] EPOCH: 28/30
+Image Segmentation task: loss= 0.033046, accuracy = 0.981300
+Pattern Classification task: loss= 0.069325, accuracy = 0.977280
+Intensity Classification task: loss= 0.040203, accuracy = 0.984577
+ 93%|█████████▎| 28/30 [5:06:41<28:51, 865.67s/it][INFO] EPOCH: 29/30
+Image Segmentation task: loss= 0.032390, accuracy = 0.981696
+Pattern Classification task: loss= 0.067526, accuracy = 0.977861
+Intensity Classification task: loss= 0.036522, accuracy = 0.986816
+ 97%|█████████▋| 29/30 [5:21:20<14:29, 869.61s/it][INFO] EPOCH: 30/30
+Image Segmentation task: loss= 0.031703, accuracy = 0.982091
+Pattern Classification task: loss= 0.059625, accuracy = 0.977861
+Intensity Classification task: loss= 0.032130, accuracy = 0.988557
+100%|██████████| 30/30 [5:35:48<00:00, 869.07s/it]100%|██████████| 30/30 [5:35:48<00:00, 671.60s/it][INFO] total time taken to train the model: 20148.01s
+
