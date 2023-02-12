@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torchsummary import summary
+#from torchsummary import summary
 from segmentation_models_pytorch.encoders import get_encoder
 
 class DoubleConv(nn.Module):
@@ -77,17 +77,17 @@ class UNet(nn.Module):
         
         self.outc = OutConv(48, n_classes)
         
-        #self.ann1_1 = nn.Linear(64512, 512)
-        #self.ann1_2 = nn.Linear(512, 7)
-        self.ann1_1 = nn.Linear(448, 256)
-        self.ann1_2 = nn.Linear(256, 7)
+        self.ann1_1 = nn.Linear(64512, 512)
+        self.ann1_2 = nn.Linear(512, 7)
+        #self.ann1_1 = nn.Linear(448, 256)
+        #self.ann1_2 = nn.Linear(256, 7)
         
-        #self.ann2_1 = nn.Linear(64512, 512)
-        #self.ann2_2 = nn.Linear(512, 1)
-        self.ann2_1 = nn.Linear(448, 256)
-        self.ann2_2 = nn.Linear(256, 1)
+        self.ann2_1 = nn.Linear(64512, 512)
+        self.ann2_2 = nn.Linear(512, 1)
+        #self.ann2_1 = nn.Linear(448, 256)
+        #self.ann2_2 = nn.Linear(256, 1)
         
-        self.maxpool2d = nn.MaxPool2d(8)
+        #self.maxpool2d = nn.MaxPool2d(8)
         
         self.weights = torch.nn.Parameter(torch.ones(3).float())
 
@@ -105,9 +105,9 @@ class UNet(nn.Module):
         output = self.outc(x)
         #print(output.shape)
         
-        a = self.maxpool2d(x5)
-        a = a.view(a.size(0), -1)
-        #a = x5.view(x5.size(0), -1)
+        #a = self.maxpool2d(x5)
+        #a = a.view(a.size(0), -1)
+        a = x5.view(x5.size(0), -1)
         a1 = self.ann1_1(a)
         a1 = F.relu(a1)
         a1 = self.ann1_2(a1)

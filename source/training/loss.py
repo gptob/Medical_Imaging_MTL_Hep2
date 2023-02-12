@@ -43,26 +43,28 @@ class MultitaskLoss(nn.Module):
         
     def forward(self, preds, mask, label, intensity):
 
-        #diceLoss = Dice().to(config.DEVICE)
-        #bceWithLogits = BCEWithLogitsLoss()
-        softmax = nn.Softmax(dim=1)
+        segBinCrEnt = nn.BCEWithLogitsLoss()
         crossEntropy = nn.CrossEntropyLoss()
         binaryCrossEntropy = nn.BCEWithLogitsLoss()
-        label = label.long()
-        mask = mask.int()
-        intensity = intensity.unsqueeze(1)
-        intensity = intensity.float()
-        #segLoss = diceLoss(preds[0], mask)
-        #segLoss = bceWithLogits(preds[0], mask)
         
         predMask, predLab, predIts = preds[0], preds[1], preds[2]
         #print('predMask',predMask.shape)
         #print('predLab',predLab.shape) 
         #print('predIts',predIts.shape) 
 
-        segLoss = self._dice_loss(predMask, mask)
-        predLab = softmax(predLab)
+        if config.DICE:
+          mask = mask.int()
+          segLoss = self._dice_loss(predMask, mask)
+        else:
+          mask = mask.float()
+          segLoss = segBinCrEnt(predMask, mask)
+        # predLab = softmax(predLab) # non serve in training
+        
+        label = label.long()
         labLoss = crossEntropy(predLab, label)
+        
+        intensity = intensity.unsqueeze(1)
+        intensity = intensity.float()
         itsLoss = binaryCrossEntropy(predIts, intensity)
         
         return torch.stack([segLoss, labLoss, itsLoss])

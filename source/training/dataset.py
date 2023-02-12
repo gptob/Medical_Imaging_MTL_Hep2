@@ -5,8 +5,9 @@ import pandas as pd
 import torch
 import os
 from skimage import io
-import imutils
+#import imutils
 import numpy as np
+from training import config
 
 class MultitaskDataset(Dataset):
     def __init__(self, csv_file, root_dir):
@@ -27,9 +28,8 @@ class MultitaskDataset(Dataset):
         img_name = os.path.join(self.root_dir, self.frame.iloc[idx, 0])
         image = io.imread(img_name)
         
-        #image = imutils.resize(image, width=384, height=384)
         
-        image2 = np.zeros((3,384,384))
+        image2 = np.zeros((config.NUM_CHANNELS,config.INPUT_IMAGE_WIDTH,config.INPUT_IMAGE_WIDTH))
         image2[0,:,:] = image
         image2[1,:,:] = image
         image2[2,:,:] = image
@@ -41,9 +41,7 @@ class MultitaskDataset(Dataset):
         mask = io.imread(mask_name)
         mask[mask == 255.0] = 1.0
         
-        #mask = imutils.resize(mask, width=384, height=384)
-        
-        mask2 = np.zeros((1,384,384))
+        mask2 = np.zeros((config.NUM_CLASSES,config.INPUT_IMAGE_WIDTH,config.INPUT_IMAGE_WIDTH))
         mask2[0,:,:] = mask
         mask = mask2
         mask2 = []
